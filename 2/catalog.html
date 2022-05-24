@@ -116,7 +116,7 @@
             <strong class="catalog-result">Найдено гостиниц: 38</strong>
             <select class="select-control" aria-label="Сортировка">
                 <option value="popular">Сначала популярные</option>
-                <option value="cheap">Сначала дешёвые</option>
+                <option value="cheap" selected>Сначала дешёвые</option>
                 <option value="expensive">Сначала дорогие</option>
             </select>
             <a class="button button-checked" href="#"><span class="visually-hidden">Показать карточки</span></a>
@@ -139,7 +139,7 @@
                     </a>
                     <p class="product-card-description">Гостиница <span class="product-card-price">От 5000 ₽</span></p>
                     <a class="product-card-link" href="#">подробнее</a>
-                    <button class="product-card-button">в избранное</button>
+                    <button class="product-card-button">в избранном</button>
                     <span class="product-card-rating">Рейтинг: 9,2</span>
                 </li>
                 <li class="product-card">
@@ -184,9 +184,19 @@
                     <a class="pagination-link" href="#">10</a>
                 </li>
             </ul>
-            <form class="product-card-amount" action="https://echo.htmlacademy.ru/" method="get">
-                <label class="control" for="product-amount">Гостиниц на странице:</label>
-                <input class="control-input" type="number" value="4" id="product-amount">
+            <label class="product-card-amount">Гостиниц на странице:
+                <select class="select-control" name="product-card-amount-on-page">
+                    <option value="4" selected>4</option>
+                </select>
+            </label>
+        </section>
+        <section class="mailing">
+            <h2 class="mailing-title">Подпишитесь на рассылку</h2>
+            <p class="about-mailing">Только полезная информация и никакого спама, честное бойскаутское!</p>
+            <form class="mailing-form" action="https://echo.htmlacademy.ru/" method="get">
+                <label class="visually-hidden" for="user-email">электронная почта</label>
+                <input class="field" type="email" id="user-email" name="user-email" placeholder="Ваш e-mail">
+                <button class="button mailing-button" type="submit">Подписаться</button>
             </form>
         </section>
     </main>
@@ -213,9 +223,7 @@
         </section>
         <section class="footer-contact">
             <h2 class="visually-hidden">Контактный номер телефона</h2>
-            <address class="footer-contact">
-                <a class="footer-contact-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
-            </address>
+            <a class="footer-contact-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
         </section>
         <section class="footer-logo">
             <h2 class="visually-hidden">Логотип html-academy</h2>
