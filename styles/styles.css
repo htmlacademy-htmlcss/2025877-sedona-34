@@ -20,7 +20,17 @@ body {
     line-height: 21px;
     color: #000000;
     background-color: #FFFFFF;
+}
 
+.advantages-number,
+.advantages-description,
+.advantages-description-town,
+.select-control,
+.product-card-description,
+.product-card-price,
+.product-card-amount,
+.about-mailing {
+    color: #333333;
 }
 
 .button {
@@ -28,13 +38,14 @@ body {
     line-height: 36px;
     font-weight: 700;
     color: #FFFFFF;
+    background-color: #756157;
     text-align: center;
     text-transform: uppercase;
+    text-decoration: none;
 }
 
 .main-header {
-    color: #000000;
-    background-color: #FFFFFF;
+    width: 1200px;
 }
 
 .navigation-link {
@@ -44,27 +55,20 @@ body {
     color: inherit;
     text-decoration: none;
     text-transform: capitalize;
-
 }
 
 .navigation-button {
     font-size: 16px;
     line-height: 20px;
-    width: 160px;
-    height: 37px;
-    background: #756157;
-
 }
 
 .entry-image {
     background-image: url("../images/backgrounds-and-advantages/index-background.jpg");
     width: 1200px;
     height: 485px;
-    color: #FFFFFF;
     background-color: #000000;
     background-repeat: no-repeat;
     background-size: 100% auto;
-
 }
 
 .entry {
@@ -77,21 +81,20 @@ body {
     font-size: 30px;
     line-height: 36px;
     font-weight: 700;
+    text-align: center;
     text-transform: uppercase;
 }
 
 .entry-content {
     font-size: 22px;
     line-height: 26px;
+    text-align: center;
     color: #333333;
 }
-
-/*Преимущества*/
 
 .advantages-item {
     text-align: center;
 }
-
 
 .advantages-title,
 .advantages-title-town {
@@ -101,15 +104,13 @@ body {
     text-transform: uppercase;
     text-align: center;
     /*не получается отцентровать title*/
-
 }
 
 .advantages-container-inner {
     width: 400px;
-    height: 383px;
+    height: 384px;
     background-color: #82B3D3;
     color: #FFFFFF;
-
 }
 
 .advantages-item-town:nth-child(1),
@@ -117,7 +118,7 @@ body {
 .advantages-item:nth-child(3),
 .advantages-item:nth-child(5) {
     width: 400px;
-    height: 383px;
+    height: 384px;
     background-color: rgba(131, 179, 211, 0.12);
 }
 
@@ -131,14 +132,12 @@ body {
     width: 400px;
     height: 383px;
     background-color: rgba(131, 179, 211, 0.2);
-
 }
 
 .apartment-search {
     width: 1200px;
     height: 417px;
     text-align: center;
-
 }
 
 .apartment-search-title {
@@ -153,14 +152,6 @@ body {
     color: #333333;
 }
 
-.apartment-search-button {
-    background-color: #756157;
-    width: 574px;
-    height: 60px;
-
-}
-
-
 .mailing {
     background-image: url("../images/backgrounds-and-advantages/mailing-background.jpg");
     width: 1200px;
@@ -168,7 +159,6 @@ body {
     background-color: #000000;
     color: #FFFFFF;
     text-align: center;
-
 }
 
 .mailing-title {
@@ -183,8 +173,6 @@ body {
 }
 
 .mailing-button {
-    width: 200px;
-    height: 60px;
     background-color: #82B3D3;
 }
 
@@ -192,14 +180,131 @@ body {
     width: 1200px;
     height: 120px;
     font-size: 40px;
-
 }
 
 .footer-social-button {
     color: #000000;
+    text-decoration: none;
 }
 
 .footer-contact-phone {
+    font-size: 40px;
+    line-height: 40px;
     color: inherit;
     text-decoration: none;
+}
+
+.inner-header,
+.filter-image {
+    /*background-image: url("../images/backgrounds-and-advantages/catalog-filter-background.jpg");
+    width: 1200px;
+    height: 403px;*/
+    background-color: #333333;
+    color: #FFFFFF;
+}
+
+.inner-title {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 78px;
+    text-transform: capitalize;
+}
+
+.breadcrumbs-link {
+    font-size: 16px;
+    line-height: 21px;
+    color: inherit;
+    text-decoration: none;
+}
+
+.catalog-filter-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: capitalize;
+}
+
+.filter-button {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    background-color: #82B3D3;
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.filter-button-reset {
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: none;
+    background: none;
+}
+
+.catalog-result {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.button-card {
+    background: none;
+    color: #000000;
+}
+
+.product-card-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.product-card-link {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+.product-card-button {
+    font-size: 16px;
+    line-height: 20px;
+    background-color: #82B3D3;
+}
+
+.green {
+    background-color: #7DB54F;
+}
+
+.product-card-rating {
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.pagination-link {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    color: #FFFFFF;
+    background-color: #82B3D3;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.pagination-current {
+    background: #F2F2F2;
+    color: #000000;
+}
+
+.mailing-catalog {
+    background-image: none;
+    width: 1200px;
+    height: 411px;
+    text-align: center;
 }
