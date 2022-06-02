@@ -231,8 +231,7 @@ body {
     text-decoration: none;
 }
 
-.inner-header,
-.filter-image {
+.inner-section {
     background-image: url("../images/backgrounds-and-advantages/catalog-filter-background.jpg");
     width: 1200px;
     height: 403px;
@@ -260,7 +259,7 @@ body {
     line-height: 26px;
     text-transform: capitalize;
 }
-
+inner
 .filter-button {
     font-family: "PT Sans";
     font-size: 16px;
@@ -279,8 +278,7 @@ body {
     color: #FFFFFF;
     background-color: transparent;
     text-align: center;
-    text-transform: none;
-    background: none;
+    text-transform: none;    
 }
 
 .catalog-result {
