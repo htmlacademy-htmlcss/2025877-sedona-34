@@ -22,6 +22,13 @@ body {
     background-color: #FFFFFF;
 }
 
+.select-control {
+    font-family: "PT Sans";
+    font-size: 18px;
+    line-height: 21px;
+
+}
+
 .advantages-number,
 .advantages-description,
 .advantages-description-town,
@@ -34,6 +41,7 @@ body {
 }
 
 .button {
+    font-family: "PT Sans";
     font-size: 20px;
     line-height: 36px;
     font-weight: 700;
@@ -58,6 +66,7 @@ body {
 }
 
 .navigation-button {
+    font-family: "PT Sans";
     font-size: 16px;
     line-height: 20px;
 }
@@ -100,7 +109,6 @@ body {
 .advantages-title-town {
     font-size: 24px;
     line-height: 28px;
-    width: 700px;
     text-transform: uppercase;
     text-align: center;
     /*не получается отцентровать title*/
@@ -167,9 +175,38 @@ body {
     text-transform: uppercase;
 }
 
+.mailing .about-mailing {
+    color: #FFFFFF;
+}
+
+
 .about-mailing {
     font-size: 22px;
     line-height: 26px;
+
+}
+
+.field {
+    background-color: #F2F2F2;
+}
+
+.field,
+.control-input {
+    font-family: "PT Sans";
+    font-size: 18px;
+    line-height: 21px;
+}
+.control-input {
+    background-color: transparent;
+}
+
+.control-input ::placeholder {
+    color: #FFFFFF;
+}
+
+.field::placeholder {
+    color:#000000;
+    opacity: 0.6;
 }
 
 .mailing-button {
@@ -196,9 +233,9 @@ body {
 
 .inner-header,
 .filter-image {
-    /*background-image: url("../images/backgrounds-and-advantages/catalog-filter-background.jpg");
+    background-image: url("../images/backgrounds-and-advantages/catalog-filter-background.jpg");
     width: 1200px;
-    height: 403px;*/
+    height: 403px;
     background-color: #333333;
     color: #FFFFFF;
 }
@@ -225,6 +262,7 @@ body {
 }
 
 .filter-button {
+    font-family: "PT Sans";
     font-size: 16px;
     line-height: 20px;
     font-weight: 700;
@@ -235,9 +273,11 @@ body {
 }
 
 .filter-button-reset {
+    font-family: "PT Sans";
     font-size: 16px;
     line-height: 20px;
     color: #FFFFFF;
+    background-color: transparent;
     text-align: center;
     text-transform: none;
     background: none;
@@ -284,6 +324,7 @@ body {
     line-height: 20px;
     text-transform: uppercase;
     color: #333333;
+    background: #F2F2F2;
 }
 
 .pagination-link {
