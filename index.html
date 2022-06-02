@@ -47,27 +47,32 @@
     </nav>
   </header>
   <main class="main-index">
-    <h1 class="visually hidden">Cайт города Седона.</h1>
-    <img src="images/backgrounds-and-advantages/welcome.svg" width="458" height="352"
-      alt="Изображение гор и надпись: welcome to the gorgeous Sedona because the Grand Canyon sucks!.">
+    <div class="entry-image">
+      <h1 class="visually hidden">Cайт города Седона.</h1>
+      <img class="welcome" src="images/backgrounds-and-advantages/welcome.svg" width="458" height="352"
+        alt="Изображение гор и надпись: welcome to the gorgeous Sedona because the Grand Canyon sucks!.">
+    </div>
     <section class="entry">
       <h2 class="visually-hidden">Вступительный блок</h2>
-      <strong class="entry-content">Седона — небольшой городок в Аризоне, заслуживающий большего!</strong>
+      <strong class="entry-appeal">Седона — небольшой городок в Аризоне, заслуживающий большего!</strong>
       <p class="entry-content">Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p>
     </section>
     <section class="advantages">
       <h2 class="visually-hidden">Преимущества</h2>
       <ol class="advantages-list">
         <li class="advantages-item">
-          <div class="advantages-container">
-            <div class="advantages-container-inner">
-              <h3 class="advantages-title">Настоящий городок</h3>
-              <span class="advantages-number">— №1 —</span>
-              <p class="advantages-description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
-            </div>
-            <img class="advantages-img" src="images/backgrounds-and-advantages/advantage-1.jpg" width="800" height="384"
-              alt="Фото города Седона.">
+          <!--<div class="advantages-container">-->
+          <!--тут сделал два дива вместо див в диве-->
+          <div class="advantages-container-inner">
+            <h3 class="advantages-title">Настоящий городок</h3>
+            <span class="advantages-number-white">— №1 —</span>
+            <p class="advantages-description-white">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
           </div>
+          <div class="advantage-1">
+            <img class="advantages-img" src="./images/backgrounds-and-advantages/advantage-1.jpg" width="800"
+              height="384" alt="Фото города Седона.">
+          </div>
+          <!--</div>-->
           <ul class="advantages-list-town">
             <li class="advantages-item-town">
               <h4 class="advantages-title-town">Жильё</h4>
@@ -85,15 +90,18 @@
           </ul>
         </li>
         <li class="advantages-item">
-          <div class="advantages-container">
-            <div class="advantages-container-inner">
-              <h3 class="advantages-title">Там есть мост дьявола</h3>
-              <span class="advantages-number">— №2 —</span>
-              <p class="advantages-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
-            </div>
-            <img class="advantages-img" src="images/backgrounds-and-advantages/advantage-2.jpg" width="800" height="384"
-              alt="Фото моста Дьявола.">
+          <!--<div class="advantages-container">-->
+          <!--тут сделал два дива вместо див в диве-->
+          <div class="advantages-container-inner">
+            <h3 class="advantages-title">Там есть мост дьявола</h3>
+            <span class="advantages-number-white">— №2 —</span>
+            <p class="advantages-description-white">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
           </div>
+          <div class="advantage-2">
+            <img class="advantages-img" src="./images/backgrounds-and-advantages/advantage-2.jpg" width="800"
+              height="384" alt="Фото моста Дьявола.">
+          </div>
+          <!--</div>-->
         </li>
         <li class="advantages-item">
           <div class="advantages-container">
@@ -139,17 +147,17 @@
       <h2 class="visually-hidden">Социальные сети</h2>
       <ul class="footer-social-list">
         <li class="footer-social-item">
-          <a class="button footer-social-button" href="https://vk.com/htmlacademy">
+          <a class="footer-social-button" href="https://vk.com/htmlacademy">
             <span class="visually-hidden">Вконтакте</span>
           </a>
         </li>
         <li class="footer-social-item">
-          <a class="button footer-social-button" href="https://t.me/htmlacademy">
+          <a class="footer-social-button" href="https://t.me/htmlacademy">
             <span class="visually-hidden">Телеграм</span>
           </a>
         </li>
         <li class="footer-social-item">
-          <a class="button footer-social-button" href="https://www.youtube.com/user/htmlacademyru">
+          <a class="footer-social-button" href="https://www.youtube.com/user/htmlacademyru">
             <span class="visually-hidden">Ютуб</span>
           </a>
         </li>
@@ -161,7 +169,7 @@
     </section>
     <section class="footer-logo">
       <h2 class="visually-hidden">Логотип html-academy</h2>
-      <a class="button footer-logo-button" href="https://htmlacademy.ru/">
+      <a class="footer-logo-button" href="https://htmlacademy.ru/">
         <img src="images/icons/logo-academy.svg" width="115" height="33" alt="Логотип html-academy.">
       </a>
     </section>
