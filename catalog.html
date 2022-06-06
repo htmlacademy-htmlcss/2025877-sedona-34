@@ -8,6 +8,7 @@
 </head>
 
 <body>
+    <div class="page-container">
     <header class="main-header">
         <nav class="navigation">
             <ul class="navigation-list">
@@ -47,13 +48,14 @@
             </ul>
         </nav>
     </header>
-    <main class="main-inner">
+    <main class="main-inner main-container ">
         <section class="inner-section">
+            <div class="filter-wrapper">
             <h1 class="inner-title">Гостиницы Седоны</h1>
             <ul class="breadcrumbs-list">
                 <li class="breadcrumbs-item">
                     <a class="breadcrumbs-link" href="index.html">
-                        <span class="visually-hidden">Главная</span>
+                        <span class="visually-hidden">Г</span>
                     </a>
                 </li>
                 <li class="breadcrumbs-item">
@@ -61,7 +63,7 @@
                 </li>
             </ul>
             <div class="filter-image">
-                <h2 class="visually-hidden">Список гостиниц с фильтрами</h2>
+                <!-- <h2 class="visually-hidden">Список гостиниц с фильтрами</h2> -->
                 <form class="catalog-filter-form" action="https://echo.htmlacademy.ru/" method="get">
                     <fieldset class="catalog-filter-group">
                         <legend class="catalog-filter-title">Инфраструктура:</legend>
@@ -113,6 +115,7 @@
                     <button class="filter-button-reset" type="reset">Сбросить</button>
                 </form>
             </div>
+        </div>
         </section>
         <section class="catalog-products">
             
@@ -147,7 +150,7 @@
                     </a>
                     <p class="product-card-description">Гостиница <span class="product-card-price">От 5000 ₽</span></p>
                     <a class="button product-card-link" href="#">подробнее</a>
-                    <button class="button product-card-button green">в избранном</button>
+                    <button class="button product-card-button-selected">в избранном</button>
                     <span class="product-card-rating">Рейтинг: 9,2</span>
                 </li>
                 <li class="product-card">
@@ -174,6 +177,7 @@
                 </li>
 
             </ul>
+            <div class="pagination-product-card-amount">
             <ul class="pagination">
                 <li class="pagination-item">
                     <a class="pagination-link pagination-current">1</a>
@@ -201,6 +205,7 @@
                     <option value="4" selected>4</option>
                 </select>
             </label>
+        </div>
         </section>
         <section class="mailing-catalog">
             <h2 class="mailing-title">Подпишитесь на рассылку</h2>
@@ -213,38 +218,40 @@
         </section>
     </main>
     <footer class="main-footer">
+        <div class="main-footer-container">
         <section class="footer-social">
-            <h2 class="visually-hidden">Социальные сети</h2>
+            <!-- <h2 class="visually-hidden">Социальные сети</h2> -->
             <ul class="footer-social-list">
                 <li class="footer-social-item">
                     <a class="footer-social-button" href="https://vk.com/htmlacademy">
-                        <span class="visually-hidden">Вконтакте</span>
+                        <span class="visually-hidden">В</span>
                     </a>
                 </li>
                 <li class="footer-social-item">
                     <a class="footer-social-button" href="https://t.me/htmlacademy">
-                        <span class="visually-hidden">Телеграм</span>
+                        <span class="visually-hidden">Т</span>
                     </a>
                 </li>
                 <li class="footer-social-item">
                     <a class="footer-social-button" href="https://www.youtube.com/user/htmlacademyru">
-                        <span class="visually-hidden">Ютуб</span>
+                        <span class="visually-hidden">Ю</span>
                     </a>
                 </li>
             </ul>
         </section>
         <section class="footer-contact">
-            <h2 class="visually-hidden">Контактный номер телефона</h2>
+            <!-- <h2 class="visually-hidden">Контактный номер телефона</h2> -->
             <a class="footer-contact-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
         </section>
         <section class="footer-logo">
-            <h2 class="visually-hidden">Логотип html-academy</h2>
+            <!-- <h2 class="visually-hidden">Логотип html-academy</h2> -->
             <a class="footer-logo-button" href="https://htmlacademy.ru/">
                 <img src="images/icons/logo-academy.svg" width="115" height="33" alt="Логотип html-academy.">
             </a>
         </section>
+    </div>
     </footer>
-
+</div>
 </body>
 
 </html>
